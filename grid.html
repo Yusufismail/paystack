@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="grid.css">
+    <script src='grid.js'></script>
+    <title>Document</title>
+</head>
+<body>
+        <div class="nav-bar">
+                <div class="logo">9:27</div>
+                <ul id='nav' class="nav-links">
+                    <li><a href="lodge2.html">Home</a></li>
+                    <li><a href="#">About </a></li>
+                    <li><a href="#">Explore</a></li>
+                    
+                 </ul>
+                
+            </div>
+        
+    
+    <main>
+    <header>
+        <a  id='a' href="#">Paystack</a>
+    <a id="a1" href="#">Pay from Wallet</a>
+    </header>
+    
+        
+       
+         
+            <form  name='form' action="jscript.html"  method='post' 
+                     onsubmit='return validate();'>
+                     
+                     <div class="formm">
+             
+         <h3>Total Price: $23.7</h3>
+
+                     <label  id='lab'>Name</label><br>
+                     <input type='text' name='name' placeholder="Jane Doe"  /><br>
+                    <label id='lab1'>Card Number</label><br>
+                    <input  type='text' name='card' placeholder="Jane Doe" ><br>
+                    <div class='spn'>
+                        <div>
+                    <label id='lab2'>Expiry Date</label><br>
+                    <input id='sp' type='text' name='date'  placeholder="01/2021"><br>
+                    </div>
+                    <div>
+                    <label id='lab3'>CVV</label><br>
+                    <input id='sp1' type='password' name='cvv' length="3"  placeholder="..."><br/>
+                    </div>
+                    </div>
+                    </div>
+                    <input  class='sub' type="submit"  value='Pay Now'  >
+                    
+                        
+                    </form>
+                   
+            </div>
+           
+    </main>
+</body>
+</html>
